@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hans Herasimczuk 1°2°C</title>
+
+    <!-- Bootstrap y otras librerías -->
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/jquery.smartcart/css/smart_cart.min.css">
+    <link rel="stylesheet" href="vendors/jquery.owl-carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/jquery.owl-carousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="vendors/jquery.whatsapp/venom-button.min.css">
+
+    <!-- Iconos de Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css">
+    
+    <!-- Tipografias -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,900;1,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+<!-- Navbar -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-opacity-75 fixed-top">
+    <div class="container-md">
+      <a class="navbar-brand" href="#">
+        <img src="img/uccwhite.svg" alt="logo" height="63">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacion" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navegacion">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="productos.html">Tienda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="localizar.html">Localizar tienda</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+<!-- Fin Navbar -->
+
+<section id="staff">
+<!-- Banner -->
+<header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 px-0 mt-1">
+                <img src="img/banner.png" alt="1920x720" width="1920" height="720" class="img-fluid">
+            </div>
+            <div class="container bg-dark py-3 text-center text-white">
+                <div class="row">
+                    <div class="col">
+                        <h1>EDICION LIMITADA</h1>
+                        <p>En colaboracion con Evangelion: 2.0 diseños EXCLUSIVOS por tiempo limitado</p>
+                    </div>
+                </div>
+                <div class="row py-3">
+                    <div class="col">
+                        <img src="img/evangelion.png" alt="logoevangelion" height="63">
+                    </div>
+                    <div class="col">
+                        <img src="img/uccwhite.svg" alt="logoucc" height="63">
+                    </div>
+                </div>
+               </div> 
+        </div>
+</header>    
+<!-- Fin Banner--> 
+
+<!-- Novedades -->
+<div class="pt-4">
+    <div class="row col-12 text-center">
+        <h2 class="titulo">Novedades</h2>
+        <p class="lead">Conocé los los nuevos diseños</p>   
+    </div>
+</div>
+<div id="latas" class="carousel carousel-dark slide container" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/latarei.png" class="d-block w-100" alt="latarei">
+      </div>
+      <div class="carousel-item">
+        <img src="img/latashinji.png" class="d-block w-100" alt="latashinji">
+      </div>
+      <div class="carousel-item">
+        <img src="img/lataasuka.png" class="d-block w-100" alt="lataasuka">
+      </div>
+      <div class="carousel-item">
+        <img src="img/latakaworu.png" class="d-block w-100" alt="latakaworu">
+      </div>
+      <div class="carousel-item">
+        <img src="img/latamari.png" class="d-block w-100" alt="latamari">
+      </div>
+      <div class="carousel-item">
+        <img src="img/latamisato.png" class="d-block w-100" alt="latamisato">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#latas" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#latas" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!-- Fin Novedades -->
+
+<!-- Call to action -->
+<div class="pt-4">
+  <div class="text-center">
+    <button type="submit" class="btn  boton_2 rounded-5 px-4 "><a class="nav-link" href="productos.html" target="_blank">Comprar ahora</a></button>  
+  </div>
+</div>
+
+
+
+<!-- Carousel -->
+<div id="recortes" class="carousel slide container mt-5" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#recortes" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#recortes" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#recortes" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#recortes" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/slidemari.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Mari Makinami</h5>
+          <p>¡Conocela en la nueva película!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/sliderei.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Rei Ayanami</h5>
+          <p>La First Children.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/slidekaworu.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Kaworu Nagisa</h5>
+          <p>El último enviado.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/slideshinji.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Shinji Ikari</h5>
+          <p>El Third Children.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#recortes" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#recortes" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!-- Fin Carousel -->
+
+<hr class="my-4">
+
+<!---Testimonios-->
+   
+    <section style="color:#DB1F26" class="bg-opacity-25 pt-2">
+        <div class="text-center">
+            <h2>Nuestros clientes</h2>
+        </div>
+    <div class="owl-carousel owl-theme">
+        
+        <div class="text-center">
+            <img class="mx-auto rounded-circle img-fluid" style="width: 100px" src="img/test2.jpg" alt="10"/>
+            <h4>Lucas Leonel</h4>
+            <p class="text-muted">Me encantan los nuevos diseños ¡Los quiero todos!</p>
+        </div>
+
+        <div class="text-center">
+            <img class="mx-auto rounded-circle img-fluid" style="width: 100px" src="img/test4.jpg" alt="11" />
+            <h4>Marcos Mónaco</h4>
+            <p class="text-muted">A la hora de los parciales, el café en lata es mi salvación.</p>
+        </div>
+
+        <div class="text-center">
+            <img class="mx-auto rounded-circle img-fluid" style="width: 100px" src="img/test5.jpg" alt="12" />
+            <h4>Santiago Mastroberti</h4>
+            <p class="text-muted">El café más rico de todos, me encantan todos sus productos.</p>
+        </div>
+
+        <div class="text-center">
+            <img class="mx-auto rounded-circle img-fluid" style="width: 100px" src="img/test7.jpg" alt="12" />
+            <h4>Sebastian Canzion</h4>
+            <p class="text-muted">Nada mejor para arrancar el día.</p>
+        </div>
+
+        <div class="text-center">
+            <img class="mx-auto rounded-circle img-fluid" style="width: 100px" src="img/test8.jpg" alt="12" />
+            <h4>Jack Felipe</h4>
+            <p class="text-muted">Desde que lo conocí no puedo parar de tomarlo.</p>
+        </div>
+
+        <div class="text-center">
+            <img class="mx-auto rounded-circle img-fluid" style="width: 100px" src="img/test6.jpg" alt="12" />
+            <h4>Jeremias Gola</h4>
+            <p class="text-muted">Cuando estoy cansado y parece todo llega a su fin...<br>
+                todo se renueva con UCC.</p>
+        </div>
+
+        <div class="text-center">
+          <img class="mx-auto rounded-circle img-fluid" style="width: 100px" src="img/test9.jpg" alt="12" />
+          <h4>Agustin Casas</h4>
+          <p class="text-muted">Simplemente increíble.</p>
+      </div>
+
+      <div class="text-center">
+        <img class="mx-auto rounded-circle img-fluid" style="width: 100px" src="img/test10.jpg" alt="12" />
+        <h4>Mateo Cingolani</h4>
+        <p class="text-muted">Una experiencia única.</p>
+    </div>
+
+    <div class="text-center">
+      <img class="mx-auto rounded-circle img-fluid" style="width: 100px" src="img/test11.jpg" alt="12" />
+      <h4>Ernesto Malgensio</h4>
+      <p class="text-muted">Lo mejor que me pasó en la vida.</p>
+    </div>
+  
+    <div class="text-center">
+      <img class="mx-auto rounded-circle img-fluid" style="width: 100px" src="img/test3.jpg" alt="12" />
+      <h4>Francisco Janza</h4>
+      <p class="text-muted">Ideal para mantenerte despierto.</p>
+    </div>
+
+      </div>
+    </section>
+
+    <!--- Fin Testimonios -->
+      
+    <div class="panc py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-center">Contacto</h2>
+                    <hr>
+                    <p class="lead text-center">¡No dudes escribirnos!</p>
+                </div>
+            </div>
+            <div>
+
+                <form action="" class="row needs-validation" novalidate>
+                    <div class="col-10 mx-auto my-2">
+                        <label for="nombres" class="form-label">Nombres (*):</label>
+                        <input type="text" class="form-control" id="nombres" placeholder="completar con nombre" required>
+                        <div class="invalid-feedback">
+                          Campo obligatorio
+                        </div>
+                    </div>
+
+                    <div class="col-10 mx-auto my-2">
+                        <label for="apellidos" class="form-label">Apellidos (*):</label>
+                        <input type="text" class="form-control" id="apellidos" placeholder="completar con apellido" required>
+                        <div class="invalid-feedback">
+                          Campo obligatorio
+                        </div>
+                    </div>
+
+                    <div class="col-10 mx-auto my-2">
+                        <label for="email" class="form-label">E-mail (*):</label>
+                        <input type="text" class="form-control" id="email" placeholder="completar con correo" required>
+                        <div class="invalid-feedback">
+                          Campo obligatorio
+                        </div>
+                    </div>
+
+                    <div class="col-10 mx-auto my-2">
+                        <label for="consulta-mensaje" class="form-label">Consulta / mensaje:</label>
+                        <textarea class="form-control" rows="3" placeholder="Tu mensaje" aria-describedby="maximos-caracteres" maxlength="480"></textarea>
+                        <div id="maximos-caracteres" class="form-text">
+                            Máxima cantidad de caracteres 480
+                        </div>
+                        <button type="submit" class="boton_3 btn mt-3">Enviar consulta</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+<!-- Inicio Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+      <div class="container">
+          <div class="row">
+              <div class="col">
+                  <p>copyright - Herasimczuk Hans | 1°2°C | Desarrollo 2 | Programación 1 - 2022 - todos los derechos reservados</p>
+              </div>
+          </div>
+      </div>
+      <div class="iconos">
+        <a href="https://www.instagram.com/lapiz_cosmico/" target="_blank"><i class="bi bi-instagram text-light fs-5"></i></a>
+        <a href="https://www.facebook.com/UCCCoffeeUK" target="_blank"><i class="bi bi-facebook text-light fs-5"></i></a>
+        <a href="https://www.linkedin.com/in/hanshera/" target="_blank"><i class="bi bi-linkedin text-light fs-5"></i></a>
+      </div>
+  </footer>
+<!-- Fin Footer-->
+
+<!-- JavaScript, Bootstrap, jQuery -->
+    <div id="myDiv"></div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="vendors/jquery.whatsapp/venom-button.min.js"></script>
+    <link rel="stylesheet" href="vendors/jquery.whatsapp/venom-button.min.css">
+      
+    <script src="vendors/jquery/jquery-3.6.1.min.js"></script>
+    <script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendors/jquery.smartcart/js/jquery.smartCart.js"></script>
+    <script src="vendors/jquery.owl-carousel/owl.carousel.min.js"></script>
+    <script src="vendors/jquery.whatsapp/venom-button.min.js"></script>
+
+<!-- Scripts -->
+    <script src="js/productos.js"></script>
+    <script src="js/scripts.js"></script>
+<!-- validacion form -->
+     <script src="js/validacion.js"></script>
+
+<!-- Boton Back to Top -->
+<a id="button"></a>
+<!-- Fin Boton Back to Top -->
+    
+</body>
+
+    <script>
+        $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+          loop: true,
+        });
+        });
+    </script>
+
+<!-- Inicio burbuja Whatsapp-->
+    <script type="text/javascript">
+      $(function () {
+        $('#myDiv').venomButton({
+          phone: '5521990000000',
+          showPopup: 'True',
+          popupMessage: "¿Necesitas ayuda?",
+          headerTilte: "Whatsapp Chat",
+          position: 'right'
+        });
+      });
+    </script>
+<!-- Fin burbuja Whatsapp-->
+
+<!-- Boton Back to Top -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+
+<script>
+  var btn = $('#button');
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
+
+  btn.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({scrollTop:0}, '300');
+  });
+</script>
+<!-- Fin Boton Back to Top -->
+</html>
